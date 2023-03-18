@@ -2,7 +2,8 @@
 Arduino control of a DDS AD9958 chip
 
 This code uses bitbanging to write to the register of a 
-quad channel DDS with 32 bit frequency words. 
+quad channel direct digital synthesize (DDS)
+with 32 bit frequency words. 
 
 The DDS was phase synchronized to the NIST maser/timing infra
 and the output was fed into an RF amplifier to drive
